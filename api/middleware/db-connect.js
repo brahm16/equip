@@ -5,6 +5,7 @@ var mongoose  = require('mongoose');
 var Mockgoose = require('mockgoose').Mockgoose;
 var mockgoose = new Mockgoose(mongoose);
 
+
 /* Get database env variable from .env */
 conf.config({ path: `${process.cwd()}/.env` });
 
