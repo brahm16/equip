@@ -2,20 +2,15 @@
 	"name": "servicima-back-hr-equipment",
 	"version": "1.0.0",
 	"description": "Rest API Project for servicima-back-hr-equipment",
-	"main": "server.js",
 	"scripts": {
-		"test": "mocha --exit './api/actions/*.spec.js' --timeout 120000",
-		"start": "node server.js",
-		"dev": "nodemon server.js",
-		"lint": "eslint ./",
-		"lint:fix": "eslint --fix .",
-		"test-coverage": "nyc  --reporter=text mocha './api/actions/*.spec.js' --exit"
+		"start": "node index.js",
+		"dev": "nodemon server"
 	},
 	"keywords": [
 		"servicima-back-hr-equipment"
 	],
 	"engines": {
-		"node": ">=10.15.0"
+		"node": "10.x"
 	},
 	"author": "WIDIGITAL <contact@widigital-group.com>",
 	"license": "UNLICENCED",
